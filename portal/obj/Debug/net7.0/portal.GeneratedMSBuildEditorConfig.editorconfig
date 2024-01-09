@@ -1,0 +1,117 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = portal
+build_property.RootNamespace = portal
+build_property.ProjectDir = C:\Users\technopc\Desktop\Ödev portalı\portal-master\portal-master\portal\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\technopc\Desktop\Ödev portalı\portal-master\portal-master\portal
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Dersler/Derslerim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVyc2xlclxEZXJzbGVyaW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Dersler/Duzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVyc2xlclxEdXplbmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Dersler/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVyc2xlclxFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Dersler/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVyc2xlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Dersler/YeniEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVyc2xlclxZZW5pRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/FrontEnd/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJvbnRFbmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Odev/Duzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RldlxEdXplbmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Odev/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RldlxFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Odev/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RldlxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Ogrenciler/Detay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaWxlclxEZXRheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Ogrenciler/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaWxlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Ogrenciler/Odev.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaWxlclxPZGV2LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Rol/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Rol/RolEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXFJvbEVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Shared/Components/UserImage/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlckltYWdlXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Uye/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXllXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Uye/Yetkilendirme.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXllXFlldGtpbGVuZGlybWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/technopc/Desktop/Ödev portalı/portal-master/portal-master/portal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-60x71b9eqb

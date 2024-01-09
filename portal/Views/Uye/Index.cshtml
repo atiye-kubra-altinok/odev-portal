@@ -1,0 +1,50 @@
+﻿@using portal.ViewModel
+@model List<AppUserModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="card">
+            <h5 class="card-header">Üyeler</h5>
+            <div class="table-responsive text-nowrap">
+                <table class="table">
+                    <thead>
+                        <tr>
+
+                            <th>Adı</th>
+                            <th>Soyadı</th>
+                            <th>Email</th>
+                            <th>İşlemler</th>
+
+                        </tr>
+                    </thead>
+                    <tbody class="table-border-bottom-0">
+
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Adi</td>
+                                <td>@item.Soyadi</td>
+                                <td>@item.Email</td>
+                                <td>
+                                    <a class="btn btn-danger" href="/Uye/Sil/@item.Id">Sil</a>
+                                </td>
+                                <td>
+                                    <a class="btn btn-warning" href="/Uye/Yetkilendirme/@item.Id">Yetki ver</a>
+                                </td>
+                            </tr>
+                        }
+
+
+                    </tbody>
+                </table>
+            </div>
+           
+        </div>
+
+    </div>
+</div>
+

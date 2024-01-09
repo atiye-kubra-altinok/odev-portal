@@ -1,0 +1,39 @@
+﻿@using portal.Models
+@model List<Ders>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="card">
+            <h5 class="card-header">Dersler Tablosu</h5>
+            <div class="table-responsive text-nowrap">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Ders Adı</th>
+
+                        </tr>
+                    </thead>
+                    <tbody class="table-border-bottom-0">
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.DersAdi</td>
+                                <td class="d-flex justify-content-end">
+                                    <a href="/Dersler/Sil/@item.Id" class="btn btn-danger m-1">Sil</a>
+                                    <a href="/Dersler/Duzenle/@item.Id" class="btn btn-warning m-1">Düzenle</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>                
+            </div>            
+        </div>
+        <a class="btn btn-primary mt-4" href="/Dersler/Ekle/">Yeni ekle</a>
+    </div>
+</div>
+
+

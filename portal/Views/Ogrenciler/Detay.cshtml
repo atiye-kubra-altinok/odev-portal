@@ -1,0 +1,40 @@
+﻿@using portal.ViewModel
+@model List<OgrenciDersleriModel>
+@{
+    ViewData["Title"] = "Detay";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container mt-5">
+    <div class="row">
+        <div class="card">
+            <h5 class="card-header">Öğrencilerin Aldığı Dersler</h5>
+            <div class="table-responsive text-nowrap">
+                <table class="table">
+                    <thead>
+                        <tr>
+
+                            <th>Ders Adı</th>
+                            <th>Ödevi</th>
+                            <th>Ödev ver</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-border-bottom-0">
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                               <td>@item.DersAdi</td>                              
+                               <td>@item.Odev</td>
+                                <td>
+                                    <a href="/Ogrenciler/Odev/@item.Id" class="btn btn-primary m-1">Ödev ver</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+       
+    </div>
+</div>
+
+

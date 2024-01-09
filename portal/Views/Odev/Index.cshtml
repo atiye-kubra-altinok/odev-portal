@@ -1,0 +1,38 @@
+﻿@using portal.Models
+@model List<Odev>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="card">
+            <h5 class="card-header">Ödevler Tablosu</h5>
+            <div class="table-responsive text-nowrap">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Ödev Konu</th>
+
+                        </tr>
+                    </thead>
+                    <tbody class="table-border-bottom-0">
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.OdevKonusu</td>
+                                <td class="d-flex justify-content-end">
+                                    <a href="/Odev/Sil/@item.Id" class="btn btn-danger m-1">Sil</a>
+                                    <a href="/Odev/Duzenle/@item.Id" class="btn btn-warning m-1">Düzenle</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <a class="btn btn-primary mt-4" href="/Odev/Ekle/">Yeni ekle</a>
+    </div>
+</div>
+

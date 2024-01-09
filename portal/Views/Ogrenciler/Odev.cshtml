@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewData["Title"] = "Odev";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <form method="post">
+            <div class="form-group mt-3 mb-3">
+                <label>Ödev Konusu Seçin</label>
+                <select name="OdevId" class="form-control odev" data-live-search="true">
+                </select>
+            </div>
+            <input type="hidden" value="@ViewBag.id" name="id" />
+            <button class="btn btn-primary kayit">Kaydet</button>
+        </form>
+    </div>
+</div>
+
+
+
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            type: 'GET',
+            url: '/Ogrenciler/OdevListele/',
+            success: function (res) {
+                console.log(res);
+                let selectElement = $('select[name="OdevId"]');
+                for (let i = 0; i < res.length; i++) {
+                    console.log(res[i]);
+                    let odev = res[i].odevKonusu;
+                    let id = res[i].id;
+                    let optionElement = $('<option></option>').attr('value', id).text(odev);
+                    selectElement.append(optionElement);
+                }
+
+            }
+        });       
+    })
+</script>
+

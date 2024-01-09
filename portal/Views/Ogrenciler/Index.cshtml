@@ -1,0 +1,59 @@
+﻿@using portal.ViewModel
+@model List<OgrenciDersleriModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="card">
+            <h5 class="card-header">Öğrencilerin Aldığı Dersler</h5>
+            <div class="table-responsive text-nowrap">
+                <table class="table">
+                    <thead>
+                        <tr>
+                          
+                            <th>Öğrenci Adı Soyadı</th>                            
+                            <th>Durum</th>                           
+                           
+                            <th>Aldığı Ödev ve Dersler</th>
+                           
+                        </tr>
+                    </thead>
+                    <tbody class="table-border-bottom-0">
+                     
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.OgrenciAdiSoyadi</td>
+
+                                <td>
+                                    @if (item.Durum == false)
+                                    {
+                                        <a href="/Ogrenciler/OdeviTamamla/@item.Id" class="btn btn-danger btn-sm">Tamamlanmadı</a>
+                                    }
+                                    else
+                                    {
+                                        <a href="/Ogrenciler/OdeviTamamlama/@item.Id" class="btn btn-success btn-sm">Tamamlandı</a>
+                                    }
+                                </td>
+
+                               
+
+
+                                <td>
+                                    <a href="/Ogrenciler/Detay/@item.UserId" class="btn btn-primary m-1">Aldığı Ödev ve Dersler</a>
+                                </td>
+
+                            </tr>
+                        }
+                            
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+     
+    </div>
+</div>
